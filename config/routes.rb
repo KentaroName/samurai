@@ -1,8 +1,11 @@
 Samurai::Application.routes.draw do
-  resources :amus
-
-  resources :memos
-
+  get "home_page/home"
+  get "home_page/help"
+  get "static_pages/home"
+  get "static_pages/help"
+  
+  get "static_pages/about"
+  
   resources :tasks
 
   # The priority is based upon order of creation: first created -> highest priority.

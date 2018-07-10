@@ -1,2 +1,0 @@
-module AmusHelper
-end
